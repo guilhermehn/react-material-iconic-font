@@ -60,9 +60,8 @@ render(<AddButton>Add</AddButton>, document.body)
 
 // rotate -> zmdi-hc-rotate-{degress}
 // valid: [90, 180, 270]
-<MaterialIcon type='plus' flip='horizontal' />
+<MaterialIcon type='plus' rotate={ 90 } />
 ```
-
 
 ## License
 MIT
