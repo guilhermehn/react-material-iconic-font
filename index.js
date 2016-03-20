@@ -32,7 +32,7 @@ const MaterialIcon = ({
 
   cx[`zmdi-${ type }`] = true
 
-  if (pull in validPulls) {
+  if (validPulls.indexOf(pull) > -1) {
     cx[`pull-${ pull }`] = true
   }
 
@@ -40,11 +40,11 @@ const MaterialIcon = ({
     cx[`zmdi-hc-${ size }x`] = true
   }
 
-  if (rotate in validRotations) {
+  if (validRotations.indexOf(rotate) > -1) {
     cx[`zmdi-hc-rotate-${ rotate }`] = true
   }
 
-  if (flip in validFlips) {
+  if (validFlips.indexOf(flip) > -1) {
     cx[`zmdi-hc-flip-${ flip }`] = true
   }
 
