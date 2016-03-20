@@ -1,15 +1,23 @@
 {
   "name": "react-material-iconic-font",
   "version": "1.0.0",
-  "description": "",
+  "description": "Material Iconic Font in React components",
   "main": "./dist/index.js",
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "babel ./index.js --out-dir ./dist",
     "prepublish": "in-publish && npm run build || not-in-publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "material",
+    "design",
+    "icons",
+    "iconic",
+    "font",
+    "react",
+    "components"
+  ],
+  "author": "Guilherme Nagatomo <nagatomo.guilherme@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "material-design-iconic-font": "^2.2.0",
@@ -26,7 +34,14 @@
     "in-publish": "^2.0.0"
   },
   "dependencies": {
-    "camel-case": "^1.2.2",
     "classnames": "^2.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermehn/react-material-iconic-font.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guilhermehn/react-material-iconic-font/issues"
+  },
+  "homepage": "https://github.com/guilhermehn/react-material-iconic-font#readme"
 }
