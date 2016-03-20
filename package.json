@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "babel ./index.js --out-dir ./dist",
-    "prepublish": "in-publish && npm run build || not-in-publish",
+    "prepublish": "in-publish && npm test && npm run build || not-in-publish",
     "test": "mocha test/.setup.js test/**/*-test.js"
   },
   "keywords": [
