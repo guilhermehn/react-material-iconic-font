@@ -26,5 +26,43 @@ const AddButton = ({ children }) => (
 render(<AddButton>Add</AddButton>, document.body)
 ```
 
+## Optional Properties
+```js
+// large -> zmdi-hc-lg
+<MaterialIcon type='plus' large />
+
+// size -> zmdi-hc-{x}x
+// valid: 2..5
+<MaterialIcon type='plus' size={ 2 } />
+
+// fixed -> zmdi-hc-fw
+<MaterialIcon type='plus' fixed />
+
+// list -> zmdi-hc-li
+<MaterialIcon type='plus' list />
+
+// border -> zmdi-hc-border
+<MaterialIcon type='plus' border />
+
+// borderCircle -> zmdi-hc-border-circle
+<MaterialIcon type='plus' borderCircle />
+
+// pull -> pull-{direction}
+// valid: ['left', 'right']
+<MaterialIcon type='plus' pull='left' />
+
+// spin -> zmdi-hc-spin
+<MaterialIcon type='plus' spin />
+
+// flip -> zmdi-hc-flip-{axis}
+// valid: ['horizontal', 'vertical']
+<MaterialIcon type='plus' flip='horizontal' />
+
+// rotate -> zmdi-hc-rotate-{degress}
+// valid: [90, 180, 270]
+<MaterialIcon type='plus' flip='horizontal' />
+```
+
+
 ## License
 MIT
