@@ -36,7 +36,7 @@ const MaterialIcon = ({
     cx[`pull-${ pull }`] = true
   }
 
-  if (!large && size > 1) {
+  if (!large && size > 1 && size < 6) {
     cx[`zmdi-hc-${ size }x`] = true
   }
 
