@@ -9,6 +9,10 @@
     "prepublish": "in-publish && npm test && npm run build || not-in-publish",
     "test": "mocha test/.setup.js test/**/*-test.js"
   },
+  "files": [
+    "index.js",
+    "dist"
+  ],
   "keywords": [
     "material",
     "design",
