@@ -9,7 +9,7 @@ npm i react-material-iconic-font --save
 ## Peer Dependencies
 - [react](https://www.npmjs.com/package/react) - 0.14.x
 - [react-dom](https://www.npmjs.com/package/react) - 0.14.x
-- [material-iconic-font](https://www.npmjs.com/package/material-iconic-font) - 2.2.x
+- [material-design-iconic-font](https://www.npmjs.com/package/material-design-iconic-font) - 2.2.x
 
 ## Usage
 ```js
