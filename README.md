@@ -26,14 +26,39 @@ const AddButton = ({ children }) => (
 render(<AddButton>Add</AddButton>, document.body)
 ```
 
+## Using "stacks"
+```js
+import React from 'react'
+import { render } from 'react-dom'
+import MaterialIcon, { MaterialIconStack } from 'react-material-iconic-font'
+
+const SquareAddButton = ({ children }) => (
+  <button type='button'>
+    <MaterialIconStack>
+      <MaterialIcon type='square-o' stackSize={ 2 } />
+      <MaterialIcon type='share' stackSize={ 1 } />
+    </MaterialIconStack>
+  </button>
+)
+
+render(<SquareAddButton>Add</SquareAddButton>, document.body)
+```
+
 ## Optional Properties
 ```js
 // large -> zmdi-hc-lg
 <MaterialIcon type='plus' large />
 
+// large -> zmdi-hc-stack-lg
+<MaterialIconStack large>...</MaterialIconStack>
+
 // size -> zmdi-hc-{x}x
 // valid: 2..5
 <MaterialIcon type='plus' size={ 2 } />
+
+// stackSize -> zmdi-hc-stack-{x}x
+// valid: 1,2
+<MaterialIcon type='plus' stackSize={ 2 } />
 
 // fixed -> zmdi-hc-fw
 <MaterialIcon type='plus' fixed />
