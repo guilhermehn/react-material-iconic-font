@@ -1,6 +1,8 @@
 import React, { PropTypes } from 'react'
 import classnames from 'classnames'
 
+const validSizes = [2, 3, 4, 5]
+const validStackSizes = [1, 2]
 const validPulls = ['left', 'right']
 const validRotations = [90, 180, 270]
 const validFlips = ['horizontal', 'vertical']
@@ -9,6 +11,7 @@ const MaterialIcon = ({
   type,
   large = false,
   size = 1,
+  stackSize = 0,
   fixed = false,
   list = false,
   border = false,
@@ -21,31 +24,19 @@ const MaterialIcon = ({
 }) => {
   const cx = {
     zmdi: true,
+    [`zmdi-${ type }`]: true,
     'zmdi-hc-lg': large,
     'zmdi-hc-fw': fixed,
     'zmdi-hc-li': list,
     'zmdi-hc-border': border,
     'zmdi-hc-border-circle': borderCircle,
     'zmdi-hc-spin': spin,
-    'zmdi-hc-spin-reverse': spin && reverse
-  }
-
-  cx[`zmdi-${ type }`] = true
-
-  if (validPulls.indexOf(pull) > -1) {
-    cx[`pull-${ pull }`] = true
-  }
-
-  if (!large && size > 1 && size < 6) {
-    cx[`zmdi-hc-${ size }x`] = true
-  }
-
-  if (validRotations.indexOf(rotate) > -1) {
-    cx[`zmdi-hc-rotate-${ rotate }`] = true
-  }
-
-  if (validFlips.indexOf(flip) > -1) {
-    cx[`zmdi-hc-flip-${ flip }`] = true
+    'zmdi-hc-spin-reverse': spin && reverse,
+    [`pull-${ pull }`]: validPulls.indexOf(pull) > -1,
+    [`zmdi-hc-${ size }x`]: !large && validSizes.indexOf(size) > -1,
+    [`zmdi-hc-stack-${ size }x`]: !large && validStackSizes.indexOf(stackSize) > -1,
+    [`zmdi-hc-rotate-${ rotate }`]: validRotations.indexOf(rotate) > -1,
+    [`zmdi-hc-flip-${ flip }`]: validFlips.indexOf(flip) > -1
   }
 
   return <i className={ classnames(cx) }></i>
@@ -55,6 +46,7 @@ MaterialIcon.propTypes = {
   type: PropTypes.string.isRequired,
   large: PropTypes.bool,
   size: PropTypes.number,
+  stackSize: PropTypes.number,
   fixed: PropTypes.bool,
   list: PropTypes.bool,
   border: PropTypes.bool,
