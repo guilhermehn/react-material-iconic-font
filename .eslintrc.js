@@ -4,10 +4,6 @@ module.exports = {
     'plugin:react/recommended'
   ],
 
-  globals: {
-    chrome: true
-  },
-
   rules: {
     indent: [2, 2],
     quotes: [2, 'single'],
