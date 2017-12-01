@@ -50,7 +50,8 @@
     "webpack-node-externals": "^1.0.0"
   },
   "dependencies": {
-    "classnames": "^2.2.3"
+    "classnames": "^2.2.3",
+    "prop-types": "^15.6.0"
   },
   "repository": {
     "type": "git",
