@@ -1,4 +1,6 @@
 # react-material-iconic-font
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/guilhermehn/react-material-iconic-font.svg)](https://greenkeeper.io/)
 > [Material Iconic Font](http://zavoloklom.github.io/material-design-iconic-font) in React components
 
 ## Install
