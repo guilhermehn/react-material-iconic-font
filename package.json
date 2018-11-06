@@ -2,18 +2,19 @@
   "name": "react-material-iconic-font",
   "version": "1.2.1",
   "description": "Material Iconic Font in React components",
-  "main": "./dist/index.js",
+  "main": "./dist/main.js",
+  "module": "./src/index.js",
   "scripts": {
-    "prebuild": "rimraf lib",
+    "prebuild": "rimraf lib && npm test",
     "build": "webpack -p",
-    "prepublish": "in-publish && npm test && npm run build || not-in-publish",
-    "pretest": "npm run build",
-    "lint": "eslint '.'",
-    "test": "mocha test/.setup.js test/**/*-test.js"
+    "pretest": "eslint '.'",
+    "test": "jest",
+    "prepublish": "in-publish && npm run build || not-in-publish"
   },
   "files": [
     "src",
-    "dist"
+    "dist",
+    "babel.config.js"
   ],
   "keywords": [
     "material",
