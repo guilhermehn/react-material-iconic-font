@@ -1,34 +1,26 @@
-var nodeExternals = require('webpack-node-externals');
+const path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: './src/index.js',
 
-  target: 'node',
-
-  resolve: {
-    extensions: ['', '.js']
-  },
-
   output: {
-    path: './dist',
-    filename: 'index.js',
-    library: 'MaterialIcon',
+    path: path.resolve(__dirname, './dist'),
+    library: 'ReactMaterialIcon',
     libraryTarget: 'umd'
   },
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-        query: {
-          cacheDirectory: true,
-          presets: ['es2015', 'react']
-        },
+        use: 'babel-loader',
         exclude: /node_modules/
       }
     ]
   },
 
-  externals: [nodeExternals()]
+  externals: {
+    react: 'react'
+  }
 };
