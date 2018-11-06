@@ -5,10 +5,10 @@
   "main": "./dist/main.js",
   "module": "./src/index.js",
   "scripts": {
-    "prebuild": "rimraf lib && npm test",
-    "build": "webpack -p",
     "pretest": "eslint '.'",
     "test": "jest",
+    "prebuild": "npm test",
+    "build": "webpack",
     "prepublish": "in-publish && npm run build || not-in-publish"
   },
   "files": [
