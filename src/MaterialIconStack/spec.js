@@ -1,7 +1,7 @@
 import React from 'react';
-import { expect } from 'chai';
 import { shallow } from 'enzyme';
-import MaterialIcon, { MaterialIconStack } from '..';
+import MaterialIconStack from '.';
+import MaterialIcon from '../MaterialIcon';
 
 describe('MaterialIconStack tests', () => {
   it('should be a <span> tag with `zmdi-hc-stack` className', () => {
@@ -11,7 +11,7 @@ describe('MaterialIconStack tests', () => {
           <MaterialIcon type="plus" />
         </MaterialIconStack>
       ).is('span.zmdi-hc-stack')
-    ).to.equal(true);
+    ).toBe(true);
   });
 
   it('should add the class `zmdi-hc-lg` if the `large` property is present', () => {
@@ -21,6 +21,6 @@ describe('MaterialIconStack tests', () => {
           <MaterialIcon type="plus" />
         </MaterialIconStack>
       ).is('.zmdi-hc-lg')
-    ).to.equal(true);
+    ).toBe(true);
   });
 });
