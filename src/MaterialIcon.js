@@ -21,7 +21,9 @@ const MaterialIcon = ({
 	spin = false,
 	rotate = 0,
 	flip = '',
-	inverse = false
+	inverse = false,
+	className,
+	...props
 }) => {
 	const cx = {
 		zmdi: true,
@@ -42,10 +44,11 @@ const MaterialIcon = ({
 		[`zmdi-hc-inverse`]: inverse
 	};
 
-	return <i className={classnames(cx)}></i>;
+	return <i className={classnames(cx, className)} {...props} />;
 };
 
 MaterialIcon.propTypes = {
+	className: PropTypes.string,
 	type: PropTypes.string.isRequired,
 	large: PropTypes.bool,
 	size: PropTypes.number,
