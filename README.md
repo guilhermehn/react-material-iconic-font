@@ -80,8 +80,10 @@ const AddButton = ({ children, ...props }) => (
 // fixed -> zmdi-hc-fw
 <MaterialIcon fixed />
 
-// list -> zmdi-hc-li
-<MaterialIcon list />
+// MaterialIconList -> zmdi-hc-ul + zmdi-hc-li
+<MaterialIconList>
+	<MaterialIcon />
+</MaterialIconList>
 
 // inverse -> zmdi-hc-inverse
 <MaterialIcon inverse />
