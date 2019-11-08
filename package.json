@@ -2,11 +2,13 @@
   "name": "react-material-iconic-font",
   "version": "1.2.1",
   "description": "Material Iconic Font in React components",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs.js",
+  "browser": "./dist/umd.js",
+  "module": "./src/index.js",
   "scripts": {
-    "prebuild": "rimraf lib",
+    "lint": "eslint .",
     "build": "webpack -p",
-    "prepublish": "in-publish && npm test && npm run build || not-in-publish",
+    "prepare": "npm test && npm run build",
     "test": "jest"
   },
   "files": [
@@ -26,32 +28,33 @@
   "license": "MIT",
   "peerDependencies": {
     "material-design-iconic-font": "^2.2.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": ">= 15",
+    "react-dom": ">= 15"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
-    "babel-loader": "^6.2.4",
+    "babel-loader": "^8.0.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^6.6.0",
-    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-jest": "^23.0.3",
     "eslint-plugin-react": "^7.16.0",
-    "in-publish": "^2.0.0",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "webpack": "^1.12.14",
-    "webpack-node-externals": "^1.0.0"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
   },
   "prettier": {
     "useTabs": true,
     "singleQuote": true
   },
   "dependencies": {
+    "bundle-stats": "^1.12.1",
     "classnames": "^2.2.3",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",

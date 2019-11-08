@@ -1,36 +1,44 @@
-var nodeExternals = require('webpack-node-externals')
+const path = require('path');
+const webpackNodeExternals = require('webpack-node-externals');
+const { BundleStatsWebpackPlugin } = require('bundle-stats');
 
-module.exports = {
-  entry: './src/index.js',
+const baseConfig = {
+	entry: './src/index.js',
+	mode: 'production',
 
-  target: 'node',
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				loader: 'babel-loader',
+				exclude: /node_modules/
+			}
+		]
+	}
+};
 
-  resolve: {
-    extensions: ['', '.js']
-  },
+module.exports = [
+	{
+		...baseConfig,
+		name: 'umd',
+		externals: ['react', 'react-dom'],
+		output: {
+			path: path.resolve('./dist'),
+			filename: 'umd.js',
+			library: 'MaterialIcon',
+			libraryTarget: 'umd'
+		},
+		plugins: [new BundleStatsWebpackPlugin()]
+	},
 
-  output: {
-    path: './dist',
-    filename: 'index.js',
-    library: 'MaterialIcon',
-    libraryTarget: 'umd'
-  },
-
-  module: {
-    loaders: [
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        query: {
-          cacheDirectory: true,
-          presets: ['es2015', 'react']
-        },
-        exclude: /node_modules/
-      }
-    ]
-  },
-
-  externals: [
-    nodeExternals()
-  ]
-}
+	{
+		...baseConfig,
+		name: 'commonjs',
+		target: 'node',
+		externals: [webpackNodeExternals()],
+		output: {
+			path: path.resolve('./dist'),
+			filename: 'cjs.js'
+		}
+	}
+];

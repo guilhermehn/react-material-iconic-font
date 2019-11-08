@@ -2,7 +2,6 @@ module.exports = {
 	extends: ['eslint:recommended', 'plugin:react/recommended'],
 
 	env: {
-		es6: true,
 		node: true,
 		browser: true,
 		'jest/globals': true
@@ -10,9 +9,14 @@ module.exports = {
 
 	parserOptions: {
 		sourceType: 'module',
-		ecmaVersion: 6,
+		ecmaVersion: 11,
 		ecmaFeatures: {
 			jsx: true
+		}
+	},
+	settings: {
+		react: {
+			version: 'detect'
 		}
 	},
 
