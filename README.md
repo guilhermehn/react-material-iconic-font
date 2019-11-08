@@ -37,16 +37,17 @@ import React from 'react';
 import { render } from 'react-dom';
 import MaterialIcon, { MaterialIconStack } from 'react-material-iconic-font';
 
-const SquareAddButton = props => (
+const ShareButton = ({ children, ...props }) => (
 	<button type="button" {...props}>
 		<MaterialIconStack>
 			<MaterialIcon type="square-o" stackSize={2} />
 			<MaterialIcon type="share" stackSize={1} />
 		</MaterialIconStack>
+		{children}
 	</button>
 );
 
-render(<SquareAddButton>Add</SquareAddButton>, document.body);
+render(<ShareButton>Share</ShareButton>, document.body);
 ```
 
 ## Optional Properties
