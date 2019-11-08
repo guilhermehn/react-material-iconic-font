@@ -71,11 +71,11 @@ const AddButton = ({ children, ...props }) => (
 
 // size -> zmdi-hc-{x}x
 // valid: 2..5
-<MaterialIcon size={ 2 } />
+<MaterialIcon size={2} />
 
 // stackSize -> zmdi-hc-stack-{x}x
 // valid: 1,2
-<MaterialIcon stackSize={ 2 } />
+<MaterialIcon stackSize={2} />
 
 // fixed -> zmdi-hc-fw
 <MaterialIcon fixed />
