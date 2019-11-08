@@ -1,50 +1,56 @@
 # react-material-iconic-font
+
 > [Material Iconic Font](http://zavoloklom.github.io/material-design-iconic-font) in React components
 
 ## Install
+
 ```bash
 npm i react-material-iconic-font --save
 ```
 
 ## Peer Dependencies
-- [react](https://www.npmjs.com/package/react) - 0.14.x
-- [react-dom](https://www.npmjs.com/package/react) - 0.14.x
+
+- [react](https://www.npmjs.com/package/react) - >= 15
+- [react-dom](https://www.npmjs.com/package/react) - >= 15
 - [material-design-iconic-font](https://www.npmjs.com/package/material-design-iconic-font) - 2.2.x
 
 ## Usage
-```js
-import React from 'react'
-import { render } from 'react-dom'
-import MaterialIcon from 'react-material-iconic-font'
 
-const AddButton = ({ children }) => (
-  <button type='button'>
-    <MaterialIcon type='plus' /> { children }
-  </button>
-)
+```jsx
+import React from 'react';
+import { render } from 'react-dom';
+import MaterialIcon from 'react-material-iconic-font';
 
-render(<AddButton>Add</AddButton>, document.body)
+const AddButton = ({ children, ...props }) => (
+	<button type="button" {...props}>
+		<MaterialIcon type="plus" /> {children}
+	</button>
+);
+
+render(<AddButton>Add</AddButton>, document.body);
 ```
 
-## Using "stacks"
+## Using icon "stacks"
+
 ```js
-import React from 'react'
-import { render } from 'react-dom'
-import MaterialIcon, { MaterialIconStack } from 'react-material-iconic-font'
+import React from 'react';
+import { render } from 'react-dom';
+import MaterialIcon, { MaterialIconStack } from 'react-material-iconic-font';
 
 const SquareAddButton = ({ children }) => (
-  <button type='button'>
-    <MaterialIconStack>
-      <MaterialIcon type='square-o' stackSize={ 2 } />
-      <MaterialIcon type='share' stackSize={ 1 } />
-    </MaterialIconStack>
-  </button>
-)
+	<button type="button">
+		<MaterialIconStack>
+			<MaterialIcon type="square-o" stackSize={2} />
+			<MaterialIcon type="share" stackSize={1} />
+		</MaterialIconStack>
+	</button>
+);
 
-render(<SquareAddButton>Add</SquareAddButton>, document.body)
+render(<SquareAddButton>Add</SquareAddButton>, document.body);
 ```
 
 ## Optional Properties
+
 ```js
 // large -> zmdi-hc-lg
 <MaterialIcon type='plus' large />
@@ -89,4 +95,5 @@ render(<SquareAddButton>Add</SquareAddButton>, document.body)
 ```
 
 ## License
+
 MIT
