@@ -19,9 +19,9 @@ const MaterialIcon = ({
 	borderCircle = false,
 	pull = '',
 	spin = false,
-	reverse = false,
 	rotate = 0,
-	flip = ''
+	flip = '',
+	inverse = false
 }) => {
 	const cx = {
 		zmdi: true,
@@ -32,13 +32,14 @@ const MaterialIcon = ({
 		'zmdi-hc-border': border,
 		'zmdi-hc-border-circle': borderCircle,
 		'zmdi-hc-spin': spin,
-		'zmdi-hc-spin-reverse': spin && reverse,
+		'zmdi-hc-spin-reverse': spin === 'reverse',
 		[`pull-${pull}`]: validPulls.indexOf(pull) > -1,
 		[`zmdi-hc-${size}x`]: !large && validSizes.indexOf(size) > -1,
 		[`zmdi-hc-stack-${stackSize}x`]:
 			!large && validStackSizes.indexOf(stackSize) > -1,
 		[`zmdi-hc-rotate-${rotate}`]: validRotations.indexOf(rotate) > -1,
-		[`zmdi-hc-flip-${flip}`]: validFlips.indexOf(flip) > -1
+		[`zmdi-hc-flip-${flip}`]: validFlips.indexOf(flip) > -1,
+		[`zmdi-hc-inverse`]: inverse
 	};
 
 	return <i className={classnames(cx)}></i>;
@@ -55,9 +56,9 @@ MaterialIcon.propTypes = {
 	borderCircle: PropTypes.bool,
 	pull: PropTypes.string,
 	spin: PropTypes.bool,
-	reverse: PropTypes.bool,
 	flip: PropTypes.string,
-	rotate: PropTypes.number
+	rotate: PropTypes.number,
+	inverse: PropTypes.bool
 };
 
 export default MaterialIcon;
