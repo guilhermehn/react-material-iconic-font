@@ -5,7 +5,7 @@
   "main": "./dist/cjs.js",
   "browser": "./dist/umd.js",
   "module": "./src/index.js",
-  "side-effects": false,
+  "sideEffects": false,
   "scripts": {
     "lint": "eslint .",
     "build": "webpack -p",
