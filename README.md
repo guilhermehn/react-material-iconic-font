@@ -50,49 +50,62 @@ const ShareButton = ({ children, ...props }) => (
 render(<ShareButton>Share</ShareButton>, document.body);
 ```
 
+## Passing HTML attributes
+
+```js
+const AddButton = ({ children, ...props }) => (
+	<button type="button" {...props}>
+		<MaterialIcon type="plus" data-icon="Add icon" /> {children}
+	</button>
+);
+```
+
 ## Optional Properties
 
 ```js
 // large -> zmdi-hc-lg
-<MaterialIcon type='plus' large />
+<MaterialIcon large />
 
 // large -> zmdi-hc-stack-lg
-<MaterialIconStack large>...</MaterialIconStack>
+<MaterialIconStack large></MaterialIconStack>
 
 // size -> zmdi-hc-{x}x
 // valid: 2..5
-<MaterialIcon type='plus' size={ 2 } />
+<MaterialIcon size={ 2 } />
 
 // stackSize -> zmdi-hc-stack-{x}x
 // valid: 1,2
-<MaterialIcon type='plus' stackSize={ 2 } />
+<MaterialIcon stackSize={ 2 } />
 
 // fixed -> zmdi-hc-fw
-<MaterialIcon type='plus' fixed />
+<MaterialIcon fixed />
 
 // list -> zmdi-hc-li
-<MaterialIcon type='plus' list />
+<MaterialIcon list />
+
+// inverse -> zmdi-hc-inverse
+<MaterialIcon inverse />
 
 // border -> zmdi-hc-border
-<MaterialIcon type='plus' border />
+<MaterialIcon border />
 
-// borderCircle -> zmdi-hc-border-circle
-<MaterialIcon type='plus' borderCircle />
+// border="circle" -> zmdi-hc-border-circle
+<MaterialIcon border="circle" />
 
 // pull -> pull-{direction}
 // valid: ['left', 'right']
-<MaterialIcon type='plus' pull='left' />
+<MaterialIcon pull='left' />
 
 // spin -> zmdi-hc-spin
-<MaterialIcon type='plus' spin />
+<MaterialIcon spin />
 
 // flip -> zmdi-hc-flip-{axis}
 // valid: ['horizontal', 'vertical']
-<MaterialIcon type='plus' flip='horizontal' />
+<MaterialIcon flip='horizontal' />
 
 // rotate -> zmdi-hc-rotate-{degress}
 // valid: [90, 180, 270]
-<MaterialIcon type='plus' rotate={ 90 } />
+<MaterialIcon rotate={90} />
 ```
 
 ## License
