@@ -1,8 +1,6 @@
-import MaterialIcon from './MaterialIcon'
-import MaterialIconStack from './MaterialIconStack'
+import MaterialIcon from './MaterialIcon';
+import MaterialIconStack from './MaterialIconStack';
 
-export default MaterialIcon
+export default MaterialIcon;
 
-export {
-  MaterialIconStack
-}
+export { MaterialIconStack };

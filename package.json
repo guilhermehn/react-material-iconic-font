@@ -56,6 +56,8 @@
   },
   "dependencies": {
     "classnames": "^2.2.3",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
     "prop-types": "^15.6.0"
   },
   "repository": {
@@ -65,5 +67,13 @@
   "bugs": {
     "url": "https://github.com/guilhermehn/react-material-iconic-font/issues"
   },
-  "homepage": "https://github.com/guilhermehn/react-material-iconic-font#readme"
+  "homepage": "https://github.com/guilhermehn/react-material-iconic-font#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "prettier --write", "git add"]
+  }
 }
