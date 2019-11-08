@@ -34,12 +34,6 @@ describe('MaterialIcon tests', () => {
 		);
 	});
 
-	it('should add classname `zmdi-hc-li` if the `list` property is present', () => {
-		expect(render(<MaterialIcon type="plus" list />).is('.zmdi-hc-li')).toBe(
-			true
-		);
-	});
-
 	it('should add classname `zmdi-hc-border` if the `border` property is present', () => {
 		expect(
 			render(<MaterialIcon type="plus" border />).is('.zmdi-hc-border')

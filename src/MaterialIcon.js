@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import { ListContext } from './MaterialIconList';
 
 const SIZES = [2, 3, 4, 5];
 const STACK_SIZES = [1, 2];
@@ -13,7 +14,6 @@ const extractProps = ({
 	size = 1,
 	stackSize = 0,
 	fixed = false,
-	list = false,
 	border = false,
 	pull = '',
 	spin = false,
@@ -22,7 +22,7 @@ const extractProps = ({
 	inverse = false,
 	...rest
 }) => [
-	{
+	list => ({
 		'zmdi-hc-lg': large,
 		'zmdi-hc-fw': fixed,
 		'zmdi-hc-li': list,
@@ -37,7 +37,7 @@ const extractProps = ({
 		[`zmdi-hc-rotate-${rotate}`]: ROTATIONS.indexOf(rotate) > -1,
 		[`zmdi-hc-flip-${flip}`]: FLIPS.indexOf(flip) > -1,
 		[`zmdi-hc-inverse`]: inverse
-	},
+	}),
 	rest
 ];
 
@@ -45,10 +45,19 @@ const MaterialIcon = ({ type, className, ...props }) => {
 	const [classProps, restProps] = extractProps(props);
 
 	return (
-		<i
-			className={classnames('zmdi', `zmdi-${type}`, classProps, className)}
-			{...restProps}
-		/>
+		<ListContext.Consumer>
+			{isInsideList => (
+				<i
+					className={classnames(
+						'zmdi',
+						`zmdi-${type}`,
+						classProps(isInsideList),
+						className
+					)}
+					{...restProps}
+				/>
+			)}
+		</ListContext.Consumer>
 	);
 };
 
