@@ -1,5 +1,5 @@
 import React from 'react';
-import Enzyme, { mount } from 'enzyme';
+import Enzyme, { render } from 'enzyme';
 import MaterialIcon from '../src';
 import Adapter from 'enzyme-adapter-react-16';
 
@@ -7,123 +7,123 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe('MaterialIcon tests', () => {
 	it('should be a <i> tag with `zmdi` className', () => {
-		expect(mount(<MaterialIcon type="plus" />).find('i.zmdi')).toHaveLength(1);
+		expect(render(<MaterialIcon type="plus" />).is('i.zmdi')).toBe(true);
 	});
 
 	it('should add classname `zmdi-hc-lg` if the `large` property is present', () => {
-		expect(
-			mount(<MaterialIcon type="plus" large />).find('.zmdi-hc-lg')
-		).toHaveLength(1);
+		expect(render(<MaterialIcon type="plus" large />).is('.zmdi-hc-lg')).toBe(
+			true
+		);
 	});
 
 	it('should add classname `zmdi-hc-{n}x` if the `size` property is present', () => {
 		expect(
-			mount(<MaterialIcon type="plus" size={2} />).find(`.zmdi-hc-2x`)
-		).toHaveLength(1);
+			render(<MaterialIcon type="plus" size={2} />).is(`.zmdi-hc-2x`)
+		).toBe(true);
 	});
 
 	it('should not add classname `zmdi-hc-{n}x` if the `size` property is invalid (1 > n < 6)', () => {
 		expect(
-			mount(<MaterialIcon type="plus" size={6} />).find(`.zmdi-hc-6x`)
-		).toHaveLength(0);
+			render(<MaterialIcon type="plus" size={6} />).is(`.zmdi-hc-6x`)
+		).toBe(false);
 	});
 
 	it('should add classname `zmdi-hc-fw` if the `fixed` property is present', () => {
-		expect(
-			mount(<MaterialIcon type="plus" fixed />).find('.zmdi-hc-fw')
-		).toHaveLength(1);
+		expect(render(<MaterialIcon type="plus" fixed />).is('.zmdi-hc-fw')).toBe(
+			true
+		);
 	});
 
 	it('should add classname `zmdi-hc-li` if the `list` property is present', () => {
-		expect(
-			mount(<MaterialIcon type="plus" list />).find('.zmdi-hc-li')
-		).toHaveLength(1);
+		expect(render(<MaterialIcon type="plus" list />).is('.zmdi-hc-li')).toBe(
+			true
+		);
 	});
 
 	it('should add classname `zmdi-hc-border` if the `border` property is present', () => {
 		expect(
-			mount(<MaterialIcon type="plus" border />).find('.zmdi-hc-border')
-		).toHaveLength(1);
+			render(<MaterialIcon type="plus" border />).is('.zmdi-hc-border')
+		).toBe(true);
 	});
 
-	it('should add classname `zmdi-hc-border-circle` if the `borderCircle` property is present', () => {
+	it('should add classname `zmdi-hc-border-circle` if the `border` property is `circle`', () => {
 		expect(
-			mount(<MaterialIcon type="plus" borderCircle />).find(
+			render(<MaterialIcon type="plus" border="circle" />).is(
 				'.zmdi-hc-border-circle'
 			)
-		).toHaveLength(1);
+		).toBe(true);
 	});
 
 	it('should add classname `zmdi-hc-spin` if the `spin` property is present', () => {
-		expect(
-			mount(<MaterialIcon type="plus" spin />).find('.zmdi-hc-spin')
-		).toHaveLength(1);
+		expect(render(<MaterialIcon type="plus" spin />).is('.zmdi-hc-spin')).toBe(
+			true
+		);
 	});
 
-	it('should add classname `zmdi-hc-spin-reverse` if the `spin` and `reverse` properties are present', () => {
+	it('should add classname `zmdi-hc-spin-reverse` if the `spin` prop is set to `reverse`', () => {
 		expect(
-			mount(<MaterialIcon type="plus" spin reverse />).find(
+			render(<MaterialIcon type="plus" spin="reverse" />).is(
 				'.zmdi-hc-spin-reverse'
 			)
-		).toHaveLength(1);
+		).toBe(true);
 	});
 
 	it('should add classname `pull-left` if the `pull` property is `left`', () => {
 		expect(
-			mount(<MaterialIcon type="plus" pull="left" />).find('.pull-left')
-		).toHaveLength(1);
+			render(<MaterialIcon type="plus" pull="left" />).is('.pull-left')
+		).toBe(true);
 	});
 
 	it('should add classname `pull-right` if the `pull` property is `right`', () => {
 		expect(
-			mount(<MaterialIcon type="plus" pull="right" />).find('.pull-right')
-		).toHaveLength(1);
+			render(<MaterialIcon type="plus" pull="right" />).is('.pull-right')
+		).toBe(true);
 	});
 
 	it('should add classname `zmdi-hc-flip-horizontal` if the `flip` property is `horizontal`', () => {
 		expect(
-			mount(<MaterialIcon type="plus" flip="horizontal" />).find(
+			render(<MaterialIcon type="plus" flip="horizontal" />).is(
 				'.zmdi-hc-flip-horizontal'
 			)
-		).toHaveLength(1);
+		).toBe(true);
 	});
 
 	it('should add classname `zmdi-hc-flip-vertical` if the `flip` property is `vertical`', () => {
 		expect(
-			mount(<MaterialIcon type="plus" flip="vertical" />).find(
+			render(<MaterialIcon type="plus" flip="vertical" />).is(
 				'.zmdi-hc-flip-vertical'
 			)
-		).toHaveLength(1);
+		).toBe(true);
 	});
 
 	it('should not add classname `zmdi-hc-flip-{axis}` if the `flip` value is other than `horizontal` or `vertical`', () => {
 		const icon = <MaterialIcon type="plus" flip="foo" />;
 
-		expect(mount(icon).find('.zmdi-hc-flip-horizontal')).toHaveLength(0);
-		expect(mount(icon).find('.zmdi-hc-flip-vertical')).toHaveLength(0);
+		expect(render(icon).is('.zmdi-hc-flip-horizontal')).toBe(false);
+		expect(render(icon).is('.zmdi-hc-flip-vertical')).toBe(false);
 	});
 
 	it('should add classname `zmdi-hc-rotate-{degrees}` if the `rotate` property is one of the valid rotation values', () => {
 		expect(
-			mount(<MaterialIcon type="plus" rotate={90} />).find('.zmdi-hc-rotate-90')
-		).toHaveLength(1);
+			render(<MaterialIcon type="plus" rotate={90} />).is('.zmdi-hc-rotate-90')
+		).toBe(true);
 
 		expect(
-			mount(<MaterialIcon type="plus" rotate={180} />).find(
+			render(<MaterialIcon type="plus" rotate={180} />).is(
 				'.zmdi-hc-rotate-180'
 			)
-		).toHaveLength(1);
+		).toBe(true);
 
 		expect(
-			mount(<MaterialIcon type="plus" rotate={270} />).find(
+			render(<MaterialIcon type="plus" rotate={270} />).is(
 				'.zmdi-hc-rotate-270'
 			)
-		).toHaveLength(1);
+		).toBe(true);
 	});
 
 	it('should not add classname `zmdi-hc-rotate-{degrees}` if the `degrees` value is other than `90`, `180` or `270`', () => {
-		const icon = <MaterialIcon type="plus" rotate={60} />;
-
-		expect(mount(icon).is('.zmdi-hc-rotate-60')).toBe(false);
+		expect(
+			render(<MaterialIcon type="plus" rotate={60} />).is('.zmdi-hc-rotate-60')
+		).toBe(false);
 	});
 });
