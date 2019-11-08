@@ -37,8 +37,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import MaterialIcon, { MaterialIconStack } from 'react-material-iconic-font';
 
-const SquareAddButton = ({ children }) => (
-	<button type="button">
+const SquareAddButton = props => (
+	<button type="button" {...props}>
 		<MaterialIconStack>
 			<MaterialIcon type="square-o" stackSize={2} />
 			<MaterialIcon type="share" stackSize={1} />

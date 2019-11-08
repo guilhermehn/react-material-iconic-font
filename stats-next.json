@@ -1,0 +1,2678 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.2",
+  "hash": "f36177e7afe395b26ce9f7c464a8db6e4031c9a8",
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "hash": "f36177e7afe395b26ce9",
+      "time": 463,
+      "builtAt": 1573230289957,
+      "publicPath": "",
+      "outputPath": "/home/gnagatomo/workspace/react-material-iconic-font/dist",
+      "assetsByChunkName": {
+        "main": "umd.js"
+      },
+      "assets": [
+        {
+          "name": "bundle-stats.html",
+          "size": 0,
+          "chunks": [],
+          "chunkNames": [],
+          "info": {},
+          "emitted": true
+        },
+        {
+          "name": "umd.js",
+          "size": 4247,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "main"
+          ],
+          "info": {},
+          "emitted": true
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "main": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "umd.js"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "main": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "umd.js"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 7619,
+          "names": [
+            "main"
+          ],
+          "files": [
+            "umd.js"
+          ],
+          "hash": "01bf7a18303c33a8efe5",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+              "name": "./node_modules/prop-types/index.js",
+              "index": 3,
+              "index2": 3,
+              "size": 710,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "issuerId": null,
+              "issuerName": "./src/MaterialIcon.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "prop-types",
+                  "loc": "2:0-35"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "prop-types",
+                  "loc": "4:0-35"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "18:12-21"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "19:9-18"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "49:8-17"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "50:9-18"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "51:8-17"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "52:13-22"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "53:9-18"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "54:8-17"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "55:10-19"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "56:16-25"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "57:8-17"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "58:8-17"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "59:11-20"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "60:8-17"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "61:10-19"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 2,
+              "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\nif (process.env.NODE_ENV !== 'production') {\n  var ReactIs = require('react-is');\n\n  // By explicitly using `prop-types` you are opting into new development behavior.\n  // http://fb.me/prop-types-in-prod\n  var throwOnDirectAccess = true;\n  module.exports = require('./factoryWithTypeCheckers')(ReactIs.isElement, throwOnDirectAccess);\n} else {\n  // By explicitly using `prop-types` you are opting into new production behavior.\n  // http://fb.me/prop-types-in-prod\n  module.exports = require('./factoryWithThrowingShims')();\n}\n"
+            },
+            {
+              "id": 1,
+              "identifier": "external \"react\"",
+              "name": "external \"react\"",
+              "index": 2,
+              "index2": 0,
+              "size": 42,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "issuerId": null,
+              "issuerName": "./src/MaterialIcon.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "react",
+                  "loc": "1:0-26"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "react",
+                  "loc": "3:0-26"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "react",
+                  "loc": "12:9-14"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "react",
+                  "loc": "43:9-14"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 2
+            },
+            {
+              "id": 2,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/classnames/index.js",
+              "name": "./node_modules/classnames/index.js",
+              "index": 6,
+              "index2": 4,
+              "size": 1198,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "issuerId": null,
+              "issuerName": "./src/MaterialIcon.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "classnames",
+                  "loc": "3:0-36"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "classnames",
+                  "loc": "5:0-36"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "classnames",
+                  "loc": "13:15-25"
+                },
+                {
+                  "moduleId": 5,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "classnames",
+                  "loc": "44:15-25"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 2,
+              "source": "/*!\n  Copyright (c) 2017 Jed Watson.\n  Licensed under the MIT License (MIT), see\n  http://jedwatson.github.io/classnames\n*/\n/* global define */\n\n(function () {\n\t'use strict';\n\n\tvar hasOwn = {}.hasOwnProperty;\n\n\tfunction classNames () {\n\t\tvar classes = [];\n\n\t\tfor (var i = 0; i < arguments.length; i++) {\n\t\t\tvar arg = arguments[i];\n\t\t\tif (!arg) continue;\n\n\t\t\tvar argType = typeof arg;\n\n\t\t\tif (argType === 'string' || argType === 'number') {\n\t\t\t\tclasses.push(arg);\n\t\t\t} else if (Array.isArray(arg) && arg.length) {\n\t\t\t\tvar inner = classNames.apply(null, arg);\n\t\t\t\tif (inner) {\n\t\t\t\t\tclasses.push(inner);\n\t\t\t\t}\n\t\t\t} else if (argType === 'object') {\n\t\t\t\tfor (var key in arg) {\n\t\t\t\t\tif (hasOwn.call(arg, key) && arg[key]) {\n\t\t\t\t\t\tclasses.push(key);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn classes.join(' ');\n\t}\n\n\tif (typeof module !== 'undefined' && module.exports) {\n\t\tclassNames.default = classNames;\n\t\tmodule.exports = classNames;\n\t} else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {\n\t\t// register as 'classnames', consistent with npm package name\n\t\tdefine('classnames', [], function () {\n\t\t\treturn classNames;\n\t\t});\n\t} else {\n\t\twindow.classNames = classNames;\n\t}\n}());\n"
+            },
+            {
+              "id": 3,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+              "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "index": 4,
+              "index2": 2,
+              "size": 1621,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+              "issuerId": 0,
+              "issuerName": "./node_modules/prop-types/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                },
+                {
+                  "id": 0,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+                  "name": "./node_modules/prop-types/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+                  "module": "./node_modules/prop-types/index.js",
+                  "moduleName": "./node_modules/prop-types/index.js",
+                  "type": "cjs require",
+                  "userRequest": "./factoryWithThrowingShims",
+                  "loc": "18:19-56"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 3,
+              "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = require('./lib/ReactPropTypesSecret');\n\nfunction emptyFunction() {}\nfunction emptyFunctionWithReset() {}\nemptyFunctionWithReset.resetWarningCache = emptyFunction;\n\nmodule.exports = function() {\n  function shim(props, propName, componentName, location, propFullName, secret) {\n    if (secret === ReactPropTypesSecret) {\n      // It is still safe when called from React.\n      return;\n    }\n    var err = new Error(\n      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +\n      'Use PropTypes.checkPropTypes() to call them. ' +\n      'Read more at http://fb.me/use-check-prop-types'\n    );\n    err.name = 'Invariant Violation';\n    throw err;\n  };\n  shim.isRequired = shim;\n  function getShim() {\n    return shim;\n  };\n  // Important!\n  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.\n  var ReactPropTypes = {\n    array: shim,\n    bool: shim,\n    func: shim,\n    number: shim,\n    object: shim,\n    string: shim,\n    symbol: shim,\n\n    any: shim,\n    arrayOf: getShim,\n    element: shim,\n    elementType: shim,\n    instanceOf: getShim,\n    node: shim,\n    objectOf: getShim,\n    oneOf: getShim,\n    oneOfType: getShim,\n    shape: getShim,\n    exact: getShim,\n\n    checkPropTypes: emptyFunctionWithReset,\n    resetWarningCache: emptyFunction\n  };\n\n  ReactPropTypes.PropTypes = ReactPropTypes;\n\n  return ReactPropTypes;\n};\n"
+            },
+            {
+              "id": 4,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+              "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+              "index": 5,
+              "index2": 1,
+              "size": 314,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+              "issuerId": 3,
+              "issuerName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                },
+                {
+                  "id": 0,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+                  "name": "./node_modules/prop-types/index.js"
+                },
+                {
+                  "id": 3,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+                  "name": "./node_modules/prop-types/factoryWithThrowingShims.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+                  "module": "./node_modules/prop-types/factoryWithThrowingShims.js",
+                  "moduleName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+                  "type": "cjs require",
+                  "userRequest": "./lib/ReactPropTypesSecret",
+                  "loc": "10:27-64"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 4,
+              "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n"
+            },
+            {
+              "id": 5,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "name": "./src/index.js + 2 modules",
+              "index": 0,
+              "index2": 7,
+              "size": 3734,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./src/index.js",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default",
+                "MaterialIconStack"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module)",
+                "ModuleConcatenation bailout: Cannot concat with ./node_modules/prop-types/index.js (<- Module is not an ECMAScript module)",
+                "ModuleConcatenation bailout: Cannot concat with external \"react\" (<- Module is not an ECMAScript module)"
+              ],
+              "depth": 0,
+              "modules": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js",
+                  "index": 0,
+                  "index2": 7,
+                  "size": 154,
+                  "cacheable": true,
+                  "built": true,
+                  "optional": false,
+                  "prefetched": false,
+                  "chunks": [],
+                  "issuer": null,
+                  "issuerId": null,
+                  "issuerName": null,
+                  "issuerPath": null,
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": null,
+                      "module": null,
+                      "moduleName": null,
+                      "type": "single entry",
+                      "userRequest": "./src/index.js",
+                      "loc": "main"
+                    }
+                  ],
+                  "usedExports": true,
+                  "providedExports": [
+                    "default",
+                    "MaterialIconStack"
+                  ],
+                  "optimizationBailout": [
+                    "ModuleConcatenation bailout: Module is an entry point"
+                  ],
+                  "depth": 0,
+                  "source": "import MaterialIcon from './MaterialIcon';\nimport MaterialIconStack from './MaterialIconStack';\nexport default MaterialIcon;\nexport { MaterialIconStack };"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js",
+                  "index": 1,
+                  "index2": 5,
+                  "size": 3059,
+                  "cacheable": true,
+                  "built": true,
+                  "optional": false,
+                  "prefetched": false,
+                  "chunks": [],
+                  "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "issuerId": null,
+                  "issuerName": "./src/index.js",
+                  "issuerPath": [
+                    {
+                      "id": null,
+                      "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "name": "./src/index.js"
+                    }
+                  ],
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony side effect evaluation",
+                      "userRequest": "./MaterialIcon",
+                      "loc": "1:0-42"
+                    },
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony import specifier",
+                      "userRequest": "./MaterialIcon",
+                      "loc": "3:15-27"
+                    }
+                  ],
+                  "usedExports": [
+                    "default"
+                  ],
+                  "providedExports": [
+                    "default"
+                  ],
+                  "optimizationBailout": [],
+                  "depth": 1,
+                  "source": "function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nimport React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\nvar validSizes = [2, 3, 4, 5];\nvar validStackSizes = [1, 2];\nvar validPulls = ['left', 'right'];\nvar validRotations = [90, 180, 270];\nvar validFlips = ['horizontal', 'vertical'];\n\nvar MaterialIcon = function MaterialIcon(_ref) {\n  var _cx;\n\n  var type = _ref.type,\n      _ref$large = _ref.large,\n      large = _ref$large === void 0 ? false : _ref$large,\n      _ref$size = _ref.size,\n      size = _ref$size === void 0 ? 1 : _ref$size,\n      _ref$stackSize = _ref.stackSize,\n      stackSize = _ref$stackSize === void 0 ? 0 : _ref$stackSize,\n      _ref$fixed = _ref.fixed,\n      fixed = _ref$fixed === void 0 ? false : _ref$fixed,\n      _ref$list = _ref.list,\n      list = _ref$list === void 0 ? false : _ref$list,\n      _ref$border = _ref.border,\n      border = _ref$border === void 0 ? false : _ref$border,\n      _ref$borderCircle = _ref.borderCircle,\n      borderCircle = _ref$borderCircle === void 0 ? false : _ref$borderCircle,\n      _ref$pull = _ref.pull,\n      pull = _ref$pull === void 0 ? '' : _ref$pull,\n      _ref$spin = _ref.spin,\n      spin = _ref$spin === void 0 ? false : _ref$spin,\n      _ref$reverse = _ref.reverse,\n      reverse = _ref$reverse === void 0 ? false : _ref$reverse,\n      _ref$rotate = _ref.rotate,\n      rotate = _ref$rotate === void 0 ? 0 : _ref$rotate,\n      _ref$flip = _ref.flip,\n      flip = _ref$flip === void 0 ? '' : _ref$flip;\n  var cx = (_cx = {\n    zmdi: true\n  }, _defineProperty(_cx, \"zmdi-\".concat(type), true), _defineProperty(_cx, 'zmdi-hc-lg', large), _defineProperty(_cx, 'zmdi-hc-fw', fixed), _defineProperty(_cx, 'zmdi-hc-li', list), _defineProperty(_cx, 'zmdi-hc-border', border), _defineProperty(_cx, 'zmdi-hc-border-circle', borderCircle), _defineProperty(_cx, 'zmdi-hc-spin', spin), _defineProperty(_cx, 'zmdi-hc-spin-reverse', spin && reverse), _defineProperty(_cx, \"pull-\".concat(pull), validPulls.indexOf(pull) > -1), _defineProperty(_cx, \"zmdi-hc-\".concat(size, \"x\"), !large && validSizes.indexOf(size) > -1), _defineProperty(_cx, \"zmdi-hc-stack-\".concat(size, \"x\"), !large && validStackSizes.indexOf(stackSize) > -1), _defineProperty(_cx, \"zmdi-hc-rotate-\".concat(rotate), validRotations.indexOf(rotate) > -1), _defineProperty(_cx, \"zmdi-hc-flip-\".concat(flip), validFlips.indexOf(flip) > -1), _cx);\n  return React.createElement(\"i\", {\n    className: classnames(cx)\n  });\n};\n\nMaterialIcon.propTypes = {\n  type: PropTypes.string.isRequired,\n  large: PropTypes.bool,\n  size: PropTypes.number,\n  stackSize: PropTypes.number,\n  fixed: PropTypes.bool,\n  list: PropTypes.bool,\n  border: PropTypes.bool,\n  borderCircle: PropTypes.bool,\n  pull: PropTypes.string,\n  spin: PropTypes.bool,\n  reverse: PropTypes.bool,\n  flip: PropTypes.string,\n  rotate: PropTypes.number\n};\nexport default MaterialIcon;"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIconStack.js",
+                  "name": "./src/MaterialIconStack.js",
+                  "index": 7,
+                  "index2": 6,
+                  "size": 506,
+                  "cacheable": true,
+                  "built": true,
+                  "optional": false,
+                  "prefetched": false,
+                  "chunks": [],
+                  "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "issuerId": null,
+                  "issuerName": "./src/index.js",
+                  "issuerPath": [
+                    {
+                      "id": null,
+                      "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "name": "./src/index.js"
+                    }
+                  ],
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony side effect evaluation",
+                      "userRequest": "./MaterialIconStack",
+                      "loc": "2:0-52"
+                    },
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony export imported specifier",
+                      "userRequest": "./MaterialIconStack",
+                      "loc": "4:0-29"
+                    }
+                  ],
+                  "usedExports": [
+                    "default"
+                  ],
+                  "providedExports": [
+                    "default"
+                  ],
+                  "optimizationBailout": [],
+                  "depth": 1,
+                  "source": "import React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\n\nvar MaterialIconStack = function MaterialIconStack(_ref) {\n  var children = _ref.children,\n      large = _ref.large;\n  var cx = {\n    'zmdi-hc-stack': true,\n    'zmdi-hc-lg': large\n  };\n  return React.createElement(\"span\", {\n    className: classnames(cx)\n  }, children);\n};\n\nMaterialIconStack.propTypes = {\n  children: PropTypes.any.isRequired,\n  large: PropTypes.bool\n};\nexport default MaterialIconStack;"
+                }
+              ],
+              "filteredModules": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "main",
+              "request": "./src/index.js",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+          "name": "./node_modules/prop-types/index.js",
+          "index": 3,
+          "index2": 3,
+          "size": 710,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+          "issuerId": null,
+          "issuerName": "./src/MaterialIcon.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "prop-types",
+              "loc": "2:0-35"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "prop-types",
+              "loc": "4:0-35"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "18:12-21"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "19:9-18"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "49:8-17"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "50:9-18"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "51:8-17"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "52:13-22"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "53:9-18"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "54:8-17"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "55:10-19"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "56:16-25"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "57:8-17"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "58:8-17"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "59:11-20"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "60:8-17"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "61:10-19"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\nif (process.env.NODE_ENV !== 'production') {\n  var ReactIs = require('react-is');\n\n  // By explicitly using `prop-types` you are opting into new development behavior.\n  // http://fb.me/prop-types-in-prod\n  var throwOnDirectAccess = true;\n  module.exports = require('./factoryWithTypeCheckers')(ReactIs.isElement, throwOnDirectAccess);\n} else {\n  // By explicitly using `prop-types` you are opting into new production behavior.\n  // http://fb.me/prop-types-in-prod\n  module.exports = require('./factoryWithThrowingShims')();\n}\n"
+        },
+        {
+          "id": 1,
+          "identifier": "external \"react\"",
+          "name": "external \"react\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+          "issuerId": null,
+          "issuerName": "./src/MaterialIcon.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "3:0-26"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "12:9-14"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "43:9-14"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 2,
+          "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/classnames/index.js",
+          "name": "./node_modules/classnames/index.js",
+          "index": 6,
+          "index2": 4,
+          "size": 1198,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+          "issuerId": null,
+          "issuerName": "./src/MaterialIcon.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "classnames",
+              "loc": "3:0-36"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "classnames",
+              "loc": "5:0-36"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "classnames",
+              "loc": "13:15-25"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "classnames",
+              "loc": "44:15-25"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "/*!\n  Copyright (c) 2017 Jed Watson.\n  Licensed under the MIT License (MIT), see\n  http://jedwatson.github.io/classnames\n*/\n/* global define */\n\n(function () {\n\t'use strict';\n\n\tvar hasOwn = {}.hasOwnProperty;\n\n\tfunction classNames () {\n\t\tvar classes = [];\n\n\t\tfor (var i = 0; i < arguments.length; i++) {\n\t\t\tvar arg = arguments[i];\n\t\t\tif (!arg) continue;\n\n\t\t\tvar argType = typeof arg;\n\n\t\t\tif (argType === 'string' || argType === 'number') {\n\t\t\t\tclasses.push(arg);\n\t\t\t} else if (Array.isArray(arg) && arg.length) {\n\t\t\t\tvar inner = classNames.apply(null, arg);\n\t\t\t\tif (inner) {\n\t\t\t\t\tclasses.push(inner);\n\t\t\t\t}\n\t\t\t} else if (argType === 'object') {\n\t\t\t\tfor (var key in arg) {\n\t\t\t\t\tif (hasOwn.call(arg, key) && arg[key]) {\n\t\t\t\t\t\tclasses.push(key);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn classes.join(' ');\n\t}\n\n\tif (typeof module !== 'undefined' && module.exports) {\n\t\tclassNames.default = classNames;\n\t\tmodule.exports = classNames;\n\t} else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {\n\t\t// register as 'classnames', consistent with npm package name\n\t\tdefine('classnames', [], function () {\n\t\t\treturn classNames;\n\t\t});\n\t} else {\n\t\twindow.classNames = classNames;\n\t}\n}());\n"
+        },
+        {
+          "id": 3,
+          "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+          "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "index": 4,
+          "index2": 2,
+          "size": 1621,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+          "issuerId": 0,
+          "issuerName": "./node_modules/prop-types/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            },
+            {
+              "id": 0,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+              "name": "./node_modules/prop-types/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+              "module": "./node_modules/prop-types/index.js",
+              "moduleName": "./node_modules/prop-types/index.js",
+              "type": "cjs require",
+              "userRequest": "./factoryWithThrowingShims",
+              "loc": "18:19-56"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = require('./lib/ReactPropTypesSecret');\n\nfunction emptyFunction() {}\nfunction emptyFunctionWithReset() {}\nemptyFunctionWithReset.resetWarningCache = emptyFunction;\n\nmodule.exports = function() {\n  function shim(props, propName, componentName, location, propFullName, secret) {\n    if (secret === ReactPropTypesSecret) {\n      // It is still safe when called from React.\n      return;\n    }\n    var err = new Error(\n      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +\n      'Use PropTypes.checkPropTypes() to call them. ' +\n      'Read more at http://fb.me/use-check-prop-types'\n    );\n    err.name = 'Invariant Violation';\n    throw err;\n  };\n  shim.isRequired = shim;\n  function getShim() {\n    return shim;\n  };\n  // Important!\n  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.\n  var ReactPropTypes = {\n    array: shim,\n    bool: shim,\n    func: shim,\n    number: shim,\n    object: shim,\n    string: shim,\n    symbol: shim,\n\n    any: shim,\n    arrayOf: getShim,\n    element: shim,\n    elementType: shim,\n    instanceOf: getShim,\n    node: shim,\n    objectOf: getShim,\n    oneOf: getShim,\n    oneOfType: getShim,\n    shape: getShim,\n    exact: getShim,\n\n    checkPropTypes: emptyFunctionWithReset,\n    resetWarningCache: emptyFunction\n  };\n\n  ReactPropTypes.PropTypes = ReactPropTypes;\n\n  return ReactPropTypes;\n};\n"
+        },
+        {
+          "id": 4,
+          "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "index": 5,
+          "index2": 1,
+          "size": 314,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+          "issuerId": 3,
+          "issuerName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            },
+            {
+              "id": 0,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/index.js",
+              "name": "./node_modules/prop-types/index.js"
+            },
+            {
+              "id": 3,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+              "name": "./node_modules/prop-types/factoryWithThrowingShims.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/prop-types/factoryWithThrowingShims.js",
+              "module": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "moduleName": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "type": "cjs require",
+              "userRequest": "./lib/ReactPropTypesSecret",
+              "loc": "10:27-64"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n"
+        },
+        {
+          "id": 5,
+          "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+          "name": "./src/index.js + 2 modules",
+          "index": 0,
+          "index2": 7,
+          "size": 3734,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default",
+            "MaterialIconStack"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/prop-types/index.js (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"react\" (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js",
+              "index": 0,
+              "index2": 7,
+              "size": 154,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./src/index.js",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default",
+                "MaterialIconStack"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "import MaterialIcon from './MaterialIcon';\nimport MaterialIconStack from './MaterialIconStack';\nexport default MaterialIcon;\nexport { MaterialIconStack };"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js",
+              "index": 1,
+              "index2": 5,
+              "size": 3059,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./MaterialIcon",
+                  "loc": "1:0-42"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./MaterialIcon",
+                  "loc": "3:15-27"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nimport React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\nvar validSizes = [2, 3, 4, 5];\nvar validStackSizes = [1, 2];\nvar validPulls = ['left', 'right'];\nvar validRotations = [90, 180, 270];\nvar validFlips = ['horizontal', 'vertical'];\n\nvar MaterialIcon = function MaterialIcon(_ref) {\n  var _cx;\n\n  var type = _ref.type,\n      _ref$large = _ref.large,\n      large = _ref$large === void 0 ? false : _ref$large,\n      _ref$size = _ref.size,\n      size = _ref$size === void 0 ? 1 : _ref$size,\n      _ref$stackSize = _ref.stackSize,\n      stackSize = _ref$stackSize === void 0 ? 0 : _ref$stackSize,\n      _ref$fixed = _ref.fixed,\n      fixed = _ref$fixed === void 0 ? false : _ref$fixed,\n      _ref$list = _ref.list,\n      list = _ref$list === void 0 ? false : _ref$list,\n      _ref$border = _ref.border,\n      border = _ref$border === void 0 ? false : _ref$border,\n      _ref$borderCircle = _ref.borderCircle,\n      borderCircle = _ref$borderCircle === void 0 ? false : _ref$borderCircle,\n      _ref$pull = _ref.pull,\n      pull = _ref$pull === void 0 ? '' : _ref$pull,\n      _ref$spin = _ref.spin,\n      spin = _ref$spin === void 0 ? false : _ref$spin,\n      _ref$reverse = _ref.reverse,\n      reverse = _ref$reverse === void 0 ? false : _ref$reverse,\n      _ref$rotate = _ref.rotate,\n      rotate = _ref$rotate === void 0 ? 0 : _ref$rotate,\n      _ref$flip = _ref.flip,\n      flip = _ref$flip === void 0 ? '' : _ref$flip;\n  var cx = (_cx = {\n    zmdi: true\n  }, _defineProperty(_cx, \"zmdi-\".concat(type), true), _defineProperty(_cx, 'zmdi-hc-lg', large), _defineProperty(_cx, 'zmdi-hc-fw', fixed), _defineProperty(_cx, 'zmdi-hc-li', list), _defineProperty(_cx, 'zmdi-hc-border', border), _defineProperty(_cx, 'zmdi-hc-border-circle', borderCircle), _defineProperty(_cx, 'zmdi-hc-spin', spin), _defineProperty(_cx, 'zmdi-hc-spin-reverse', spin && reverse), _defineProperty(_cx, \"pull-\".concat(pull), validPulls.indexOf(pull) > -1), _defineProperty(_cx, \"zmdi-hc-\".concat(size, \"x\"), !large && validSizes.indexOf(size) > -1), _defineProperty(_cx, \"zmdi-hc-stack-\".concat(size, \"x\"), !large && validStackSizes.indexOf(stackSize) > -1), _defineProperty(_cx, \"zmdi-hc-rotate-\".concat(rotate), validRotations.indexOf(rotate) > -1), _defineProperty(_cx, \"zmdi-hc-flip-\".concat(flip), validFlips.indexOf(flip) > -1), _cx);\n  return React.createElement(\"i\", {\n    className: classnames(cx)\n  });\n};\n\nMaterialIcon.propTypes = {\n  type: PropTypes.string.isRequired,\n  large: PropTypes.bool,\n  size: PropTypes.number,\n  stackSize: PropTypes.number,\n  fixed: PropTypes.bool,\n  list: PropTypes.bool,\n  border: PropTypes.bool,\n  borderCircle: PropTypes.bool,\n  pull: PropTypes.string,\n  spin: PropTypes.bool,\n  reverse: PropTypes.bool,\n  flip: PropTypes.string,\n  rotate: PropTypes.number\n};\nexport default MaterialIcon;"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIconStack.js",
+              "name": "./src/MaterialIconStack.js",
+              "index": 7,
+              "index2": 6,
+              "size": 506,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./MaterialIconStack",
+                  "loc": "2:0-52"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./MaterialIconStack",
+                  "loc": "4:0-29"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "import React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\n\nvar MaterialIconStack = function MaterialIconStack(_ref) {\n  var children = _ref.children,\n      large = _ref.large;\n  var cx = {\n    'zmdi-hc-stack': true,\n    'zmdi-hc-lg': large\n  };\n  return React.createElement(\"span\", {\n    className: classnames(cx)\n  }, children);\n};\n\nMaterialIconStack.propTypes = {\n  children: PropTypes.any.isRequired,\n  large: PropTypes.bool\n};\nexport default MaterialIconStack;"
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "umd"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "hash": "f7c464a8db6e4031c9a8",
+      "time": 403,
+      "builtAt": 1573230289912,
+      "publicPath": "",
+      "outputPath": "/home/gnagatomo/workspace/react-material-iconic-font/dist",
+      "assetsByChunkName": {
+        "main": "cjs.js"
+      },
+      "assets": [
+        {
+          "name": "cjs.js",
+          "size": 2712,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "main"
+          ],
+          "info": {},
+          "emitted": true
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "main": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "cjs.js"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "main": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "cjs.js"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 3860,
+          "names": [
+            "main"
+          ],
+          "files": [
+            "cjs.js"
+          ],
+          "hash": "901f85294612580f3726",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "external \"prop-types\"",
+              "name": "external \"prop-types\"",
+              "index": 3,
+              "index2": 1,
+              "size": 42,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "issuerId": null,
+              "issuerName": "./src/MaterialIcon.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "prop-types",
+                  "loc": "2:0-35"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "prop-types",
+                  "loc": "4:0-35"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "18:12-21"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "19:9-18"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "49:8-17"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "50:9-18"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "51:8-17"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "52:13-22"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "53:9-18"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "54:8-17"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "55:10-19"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "56:16-25"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "57:8-17"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "58:8-17"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "59:11-20"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "60:8-17"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "prop-types",
+                  "loc": "61:10-19"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 2
+            },
+            {
+              "id": 1,
+              "identifier": "external \"react\"",
+              "name": "external \"react\"",
+              "index": 2,
+              "index2": 0,
+              "size": 42,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "issuerId": null,
+              "issuerName": "./src/MaterialIcon.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "react",
+                  "loc": "1:0-26"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "react",
+                  "loc": "3:0-26"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "react",
+                  "loc": "12:9-14"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "react",
+                  "loc": "43:9-14"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 2
+            },
+            {
+              "id": 2,
+              "identifier": "external \"classnames\"",
+              "name": "external \"classnames\"",
+              "index": 4,
+              "index2": 2,
+              "size": 42,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "issuerId": null,
+              "issuerName": "./src/MaterialIcon.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "classnames",
+                  "loc": "3:0-36"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "classnames",
+                  "loc": "5:0-36"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "classnames",
+                  "loc": "13:15-25"
+                },
+                {
+                  "moduleId": 3,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+                  "module": "./src/index.js + 2 modules",
+                  "moduleName": "./src/index.js + 2 modules",
+                  "type": "harmony import specifier",
+                  "userRequest": "classnames",
+                  "loc": "44:15-25"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 2
+            },
+            {
+              "id": 3,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "name": "./src/index.js + 2 modules",
+              "index": 0,
+              "index2": 5,
+              "size": 3734,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./src/index.js",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default",
+                "MaterialIconStack"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Cannot concat with external \"classnames\" (<- Module is not an ECMAScript module)",
+                "ModuleConcatenation bailout: Cannot concat with external \"prop-types\" (<- Module is not an ECMAScript module)",
+                "ModuleConcatenation bailout: Cannot concat with external \"react\" (<- Module is not an ECMAScript module)"
+              ],
+              "depth": 0,
+              "modules": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js",
+                  "index": 0,
+                  "index2": 5,
+                  "size": 154,
+                  "cacheable": true,
+                  "built": true,
+                  "optional": false,
+                  "prefetched": false,
+                  "chunks": [],
+                  "issuer": null,
+                  "issuerId": null,
+                  "issuerName": null,
+                  "issuerPath": null,
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": null,
+                      "module": null,
+                      "moduleName": null,
+                      "type": "single entry",
+                      "userRequest": "./src/index.js",
+                      "loc": "main"
+                    }
+                  ],
+                  "usedExports": true,
+                  "providedExports": [
+                    "default",
+                    "MaterialIconStack"
+                  ],
+                  "optimizationBailout": [
+                    "ModuleConcatenation bailout: Module is an entry point"
+                  ],
+                  "depth": 0,
+                  "source": "import MaterialIcon from './MaterialIcon';\nimport MaterialIconStack from './MaterialIconStack';\nexport default MaterialIcon;\nexport { MaterialIconStack };"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+                  "name": "./src/MaterialIcon.js",
+                  "index": 1,
+                  "index2": 3,
+                  "size": 3059,
+                  "cacheable": true,
+                  "built": true,
+                  "optional": false,
+                  "prefetched": false,
+                  "chunks": [],
+                  "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "issuerId": null,
+                  "issuerName": "./src/index.js",
+                  "issuerPath": [
+                    {
+                      "id": null,
+                      "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "name": "./src/index.js"
+                    }
+                  ],
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony side effect evaluation",
+                      "userRequest": "./MaterialIcon",
+                      "loc": "1:0-42"
+                    },
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony import specifier",
+                      "userRequest": "./MaterialIcon",
+                      "loc": "3:15-27"
+                    }
+                  ],
+                  "usedExports": [
+                    "default"
+                  ],
+                  "providedExports": [
+                    "default"
+                  ],
+                  "optimizationBailout": [],
+                  "depth": 1,
+                  "source": "function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nimport React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\nvar validSizes = [2, 3, 4, 5];\nvar validStackSizes = [1, 2];\nvar validPulls = ['left', 'right'];\nvar validRotations = [90, 180, 270];\nvar validFlips = ['horizontal', 'vertical'];\n\nvar MaterialIcon = function MaterialIcon(_ref) {\n  var _cx;\n\n  var type = _ref.type,\n      _ref$large = _ref.large,\n      large = _ref$large === void 0 ? false : _ref$large,\n      _ref$size = _ref.size,\n      size = _ref$size === void 0 ? 1 : _ref$size,\n      _ref$stackSize = _ref.stackSize,\n      stackSize = _ref$stackSize === void 0 ? 0 : _ref$stackSize,\n      _ref$fixed = _ref.fixed,\n      fixed = _ref$fixed === void 0 ? false : _ref$fixed,\n      _ref$list = _ref.list,\n      list = _ref$list === void 0 ? false : _ref$list,\n      _ref$border = _ref.border,\n      border = _ref$border === void 0 ? false : _ref$border,\n      _ref$borderCircle = _ref.borderCircle,\n      borderCircle = _ref$borderCircle === void 0 ? false : _ref$borderCircle,\n      _ref$pull = _ref.pull,\n      pull = _ref$pull === void 0 ? '' : _ref$pull,\n      _ref$spin = _ref.spin,\n      spin = _ref$spin === void 0 ? false : _ref$spin,\n      _ref$reverse = _ref.reverse,\n      reverse = _ref$reverse === void 0 ? false : _ref$reverse,\n      _ref$rotate = _ref.rotate,\n      rotate = _ref$rotate === void 0 ? 0 : _ref$rotate,\n      _ref$flip = _ref.flip,\n      flip = _ref$flip === void 0 ? '' : _ref$flip;\n  var cx = (_cx = {\n    zmdi: true\n  }, _defineProperty(_cx, \"zmdi-\".concat(type), true), _defineProperty(_cx, 'zmdi-hc-lg', large), _defineProperty(_cx, 'zmdi-hc-fw', fixed), _defineProperty(_cx, 'zmdi-hc-li', list), _defineProperty(_cx, 'zmdi-hc-border', border), _defineProperty(_cx, 'zmdi-hc-border-circle', borderCircle), _defineProperty(_cx, 'zmdi-hc-spin', spin), _defineProperty(_cx, 'zmdi-hc-spin-reverse', spin && reverse), _defineProperty(_cx, \"pull-\".concat(pull), validPulls.indexOf(pull) > -1), _defineProperty(_cx, \"zmdi-hc-\".concat(size, \"x\"), !large && validSizes.indexOf(size) > -1), _defineProperty(_cx, \"zmdi-hc-stack-\".concat(size, \"x\"), !large && validStackSizes.indexOf(stackSize) > -1), _defineProperty(_cx, \"zmdi-hc-rotate-\".concat(rotate), validRotations.indexOf(rotate) > -1), _defineProperty(_cx, \"zmdi-hc-flip-\".concat(flip), validFlips.indexOf(flip) > -1), _cx);\n  return React.createElement(\"i\", {\n    className: classnames(cx)\n  });\n};\n\nMaterialIcon.propTypes = {\n  type: PropTypes.string.isRequired,\n  large: PropTypes.bool,\n  size: PropTypes.number,\n  stackSize: PropTypes.number,\n  fixed: PropTypes.bool,\n  list: PropTypes.bool,\n  border: PropTypes.bool,\n  borderCircle: PropTypes.bool,\n  pull: PropTypes.string,\n  spin: PropTypes.bool,\n  reverse: PropTypes.bool,\n  flip: PropTypes.string,\n  rotate: PropTypes.number\n};\nexport default MaterialIcon;"
+                },
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIconStack.js",
+                  "name": "./src/MaterialIconStack.js",
+                  "index": 5,
+                  "index2": 4,
+                  "size": 506,
+                  "cacheable": true,
+                  "built": true,
+                  "optional": false,
+                  "prefetched": false,
+                  "chunks": [],
+                  "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "issuerId": null,
+                  "issuerName": "./src/index.js",
+                  "issuerPath": [
+                    {
+                      "id": null,
+                      "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "name": "./src/index.js"
+                    }
+                  ],
+                  "failed": false,
+                  "errors": 0,
+                  "warnings": 0,
+                  "assets": [],
+                  "reasons": [
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony side effect evaluation",
+                      "userRequest": "./MaterialIconStack",
+                      "loc": "2:0-52"
+                    },
+                    {
+                      "moduleId": null,
+                      "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                      "module": "./src/index.js",
+                      "moduleName": "./src/index.js",
+                      "type": "harmony export imported specifier",
+                      "userRequest": "./MaterialIconStack",
+                      "loc": "4:0-29"
+                    }
+                  ],
+                  "usedExports": [
+                    "default"
+                  ],
+                  "providedExports": [
+                    "default"
+                  ],
+                  "optimizationBailout": [],
+                  "depth": 1,
+                  "source": "import React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\n\nvar MaterialIconStack = function MaterialIconStack(_ref) {\n  var children = _ref.children,\n      large = _ref.large;\n  var cx = {\n    'zmdi-hc-stack': true,\n    'zmdi-hc-lg': large\n  };\n  return React.createElement(\"span\", {\n    className: classnames(cx)\n  }, children);\n};\n\nMaterialIconStack.propTypes = {\n  children: PropTypes.any.isRequired,\n  large: PropTypes.bool\n};\nexport default MaterialIconStack;"
+                }
+              ],
+              "filteredModules": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "main",
+              "request": "./src/index.js",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external \"prop-types\"",
+          "name": "external \"prop-types\"",
+          "index": 3,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+          "issuerId": null,
+          "issuerName": "./src/MaterialIcon.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "prop-types",
+              "loc": "2:0-35"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "prop-types",
+              "loc": "4:0-35"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "18:12-21"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "19:9-18"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "49:8-17"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "50:9-18"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "51:8-17"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "52:13-22"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "53:9-18"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "54:8-17"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "55:10-19"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "56:16-25"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "57:8-17"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "58:8-17"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "59:11-20"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "60:8-17"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "prop-types",
+              "loc": "61:10-19"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 1,
+          "identifier": "external \"react\"",
+          "name": "external \"react\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+          "issuerId": null,
+          "issuerName": "./src/MaterialIcon.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "3:0-26"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "12:9-14"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "43:9-14"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 2,
+          "identifier": "external \"classnames\"",
+          "name": "external \"classnames\"",
+          "index": 4,
+          "index2": 2,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+          "issuerId": null,
+          "issuerName": "./src/MaterialIcon.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "classnames",
+              "loc": "3:0-36"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "classnames",
+              "loc": "5:0-36"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "classnames",
+              "loc": "13:15-25"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "classnames",
+              "loc": "44:15-25"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 3,
+          "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js 7ddf46fe0152e126a92901de7120fb53",
+          "name": "./src/index.js + 2 modules",
+          "index": 0,
+          "index2": 5,
+          "size": 3734,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default",
+            "MaterialIconStack"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with external \"classnames\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"prop-types\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"react\" (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "name": "./src/index.js",
+              "index": 0,
+              "index2": 5,
+              "size": 154,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./src/index.js",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default",
+                "MaterialIconStack"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "import MaterialIcon from './MaterialIcon';\nimport MaterialIconStack from './MaterialIconStack';\nexport default MaterialIcon;\nexport { MaterialIconStack };"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIcon.js",
+              "name": "./src/MaterialIcon.js",
+              "index": 1,
+              "index2": 3,
+              "size": 3059,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./MaterialIcon",
+                  "loc": "1:0-42"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./MaterialIcon",
+                  "loc": "3:15-27"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nimport React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\nvar validSizes = [2, 3, 4, 5];\nvar validStackSizes = [1, 2];\nvar validPulls = ['left', 'right'];\nvar validRotations = [90, 180, 270];\nvar validFlips = ['horizontal', 'vertical'];\n\nvar MaterialIcon = function MaterialIcon(_ref) {\n  var _cx;\n\n  var type = _ref.type,\n      _ref$large = _ref.large,\n      large = _ref$large === void 0 ? false : _ref$large,\n      _ref$size = _ref.size,\n      size = _ref$size === void 0 ? 1 : _ref$size,\n      _ref$stackSize = _ref.stackSize,\n      stackSize = _ref$stackSize === void 0 ? 0 : _ref$stackSize,\n      _ref$fixed = _ref.fixed,\n      fixed = _ref$fixed === void 0 ? false : _ref$fixed,\n      _ref$list = _ref.list,\n      list = _ref$list === void 0 ? false : _ref$list,\n      _ref$border = _ref.border,\n      border = _ref$border === void 0 ? false : _ref$border,\n      _ref$borderCircle = _ref.borderCircle,\n      borderCircle = _ref$borderCircle === void 0 ? false : _ref$borderCircle,\n      _ref$pull = _ref.pull,\n      pull = _ref$pull === void 0 ? '' : _ref$pull,\n      _ref$spin = _ref.spin,\n      spin = _ref$spin === void 0 ? false : _ref$spin,\n      _ref$reverse = _ref.reverse,\n      reverse = _ref$reverse === void 0 ? false : _ref$reverse,\n      _ref$rotate = _ref.rotate,\n      rotate = _ref$rotate === void 0 ? 0 : _ref$rotate,\n      _ref$flip = _ref.flip,\n      flip = _ref$flip === void 0 ? '' : _ref$flip;\n  var cx = (_cx = {\n    zmdi: true\n  }, _defineProperty(_cx, \"zmdi-\".concat(type), true), _defineProperty(_cx, 'zmdi-hc-lg', large), _defineProperty(_cx, 'zmdi-hc-fw', fixed), _defineProperty(_cx, 'zmdi-hc-li', list), _defineProperty(_cx, 'zmdi-hc-border', border), _defineProperty(_cx, 'zmdi-hc-border-circle', borderCircle), _defineProperty(_cx, 'zmdi-hc-spin', spin), _defineProperty(_cx, 'zmdi-hc-spin-reverse', spin && reverse), _defineProperty(_cx, \"pull-\".concat(pull), validPulls.indexOf(pull) > -1), _defineProperty(_cx, \"zmdi-hc-\".concat(size, \"x\"), !large && validSizes.indexOf(size) > -1), _defineProperty(_cx, \"zmdi-hc-stack-\".concat(size, \"x\"), !large && validStackSizes.indexOf(stackSize) > -1), _defineProperty(_cx, \"zmdi-hc-rotate-\".concat(rotate), validRotations.indexOf(rotate) > -1), _defineProperty(_cx, \"zmdi-hc-flip-\".concat(flip), validFlips.indexOf(flip) > -1), _cx);\n  return React.createElement(\"i\", {\n    className: classnames(cx)\n  });\n};\n\nMaterialIcon.propTypes = {\n  type: PropTypes.string.isRequired,\n  large: PropTypes.bool,\n  size: PropTypes.number,\n  stackSize: PropTypes.number,\n  fixed: PropTypes.bool,\n  list: PropTypes.bool,\n  border: PropTypes.bool,\n  borderCircle: PropTypes.bool,\n  pull: PropTypes.string,\n  spin: PropTypes.bool,\n  reverse: PropTypes.bool,\n  flip: PropTypes.string,\n  rotate: PropTypes.number\n};\nexport default MaterialIcon;"
+            },
+            {
+              "id": null,
+              "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/MaterialIconStack.js",
+              "name": "./src/MaterialIconStack.js",
+              "index": 5,
+              "index2": 4,
+              "size": 506,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+              "issuerId": null,
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "name": "./src/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./MaterialIconStack",
+                  "loc": "2:0-52"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/home/gnagatomo/workspace/react-material-iconic-font/node_modules/babel-loader/lib/index.js!/home/gnagatomo/workspace/react-material-iconic-font/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./MaterialIconStack",
+                  "loc": "4:0-29"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "import React from 'react';\nimport PropTypes from 'prop-types';\nimport classnames from 'classnames';\n\nvar MaterialIconStack = function MaterialIconStack(_ref) {\n  var children = _ref.children,\n      large = _ref.large;\n  var cx = {\n    'zmdi-hc-stack': true,\n    'zmdi-hc-lg': large\n  };\n  return React.createElement(\"span\", {\n    className: classnames(cx)\n  }, children);\n};\n\nMaterialIconStack.propTypes = {\n  children: PropTypes.any.isRequired,\n  large: PropTypes.bool\n};\nexport default MaterialIconStack;"
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "commonjs"
+    }
+  ]
+}
