@@ -35,7 +35,7 @@ const MaterialIcon = ({
 		'zmdi-hc-spin-reverse': spin && reverse,
 		[`pull-${pull}`]: validPulls.indexOf(pull) > -1,
 		[`zmdi-hc-${size}x`]: !large && validSizes.indexOf(size) > -1,
-		[`zmdi-hc-stack-${size}x`]:
+		[`zmdi-hc-stack-${stackSize}x`]:
 			!large && validStackSizes.indexOf(stackSize) > -1,
 		[`zmdi-hc-rotate-${rotate}`]: validRotations.indexOf(rotate) > -1,
 		[`zmdi-hc-flip-${flip}`]: validFlips.indexOf(flip) > -1
