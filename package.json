@@ -43,7 +43,7 @@
     "eslint": "^7.1.0",
     "eslint-plugin-jest": "^25.3.4",
     "eslint-plugin-react": "^7.16.0",
-    "husky": "^4.0.1",
+    "husky": "^8.0.1",
     "jest": "^25.1.0",
     "lint-staged": "^12.1.7",
     "prettier": "^2.0.4",
