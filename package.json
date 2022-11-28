@@ -41,7 +41,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^7.1.0",
-    "eslint-plugin-jest": "^25.3.4",
+    "eslint-plugin-jest": "^27.1.6",
     "eslint-plugin-react": "^7.16.0",
     "husky": "^4.0.1",
     "jest": "^25.1.0",
